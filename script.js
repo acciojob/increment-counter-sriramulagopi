@@ -4,5 +4,6 @@ const btn = document.getElementById("incrementBtn");
 const para = document.getElementById("counter");
 btn.addEventListener("click",()=>{
 	para.innerText=`${count}`;
-	alert(count++);
+	alert(count);
+	++count;
 })
